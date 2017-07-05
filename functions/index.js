@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 
 app.get('/properties', (req, res) => {
   return admin.database().ref('/properties').once('value', snapshot => {
-    res.send(JSON.stringify(snapshot.val()));
+    res.json(snapshot.val());
   });
 });
 
