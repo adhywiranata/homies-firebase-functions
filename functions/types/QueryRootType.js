@@ -42,12 +42,23 @@ const QueryType = new GraphQLObjectType({
         },
       },
       resolve: (obj, { id }) => new Promise((resolve, reject) => {
-        admin.database().ref('/properties').once('value', (snapshot) => {
-          const propertiesArr = objToArr(snapshot.val());
-          const result = propertiesArr.map((property) => {
-            return Object.assign({}, property, { images: objToArr(property.images) });
-          }).filter(property => property.id === id)[0];
-          resolve(result);
+        admin.database().ref('/properties').once('value', (propertiesSnapshot) => {
+          admin.database().ref('/agents').once('value', (agentsSnapshot) => {
+            const propertiesArr = objToArr(propertiesSnapshot.val());
+            const agentsArr = objToArr(agentsSnapshot.val());
+
+            const getAgentById = (agentId) => {
+              return agentsArr.filter(agent => agent.id === agentId)[0];
+            };
+
+            const result = propertiesArr.map((property) => {
+              return Object.assign({}, property, {
+                images: objToArr(property.images),
+                agent: getAgentById(property.agid),
+              });
+            }).filter(property => property.id === id)[0];
+            resolve(result);
+          });
         });
       }),
     },

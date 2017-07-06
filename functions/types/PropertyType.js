@@ -7,6 +7,8 @@ const {
   GraphQLObjectType,
 } = require('graphql');
 
+const AgentType = require('./AgentType');
+
 const PropertyFacilitiesType = new GraphQLObjectType({
   name: 'Facilities',
   fields: () => ({
@@ -54,6 +56,9 @@ const PropertyType = new GraphQLObjectType({
     },
     agid: {
       type: GraphQLString,
+    },
+    agent: {
+      type: AgentType,
     },
     facilities: {
       type: PropertyFacilitiesType,
