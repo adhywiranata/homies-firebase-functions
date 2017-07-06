@@ -23,11 +23,11 @@ const QueryType = new GraphQLObjectType({
     properties: {
       type: new GraphQLList(PropertyType),
       resolve: () => new Promise((resolve, reject) => {
-        admin.database().ref('/properties').once('value', snapshot => {
+        admin.database().ref('/properties').once('value', (snapshot) => {
           const propertiesArr = objToArr(snapshot.val());
-          const result = propertiesArr.map(property => (
-            Object.assign({}, property, { images: objToArr(property.images) })),
-          );
+          const result = propertiesArr.map((property) => {
+            return Object.assign({}, property, { images: objToArr(property.images) });
+          });
           resolve(result);
         });
       }),

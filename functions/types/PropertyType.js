@@ -38,13 +38,13 @@ const PropertyType = new GraphQLObjectType({
   name: 'Property',
   fields: () => ({
     id: {
-      type: GraphQLInt,
+      type: GraphQLString,
     },
     name: {
       type: GraphQLString,
     },
     price: {
-      type: GraphQLInt,
+      type: GraphQLString,
     },
     category: {
       type: GraphQLString,
