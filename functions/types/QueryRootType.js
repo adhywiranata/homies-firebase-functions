@@ -8,6 +8,7 @@ const admin = require('firebase-admin');
 admin.initializeApp(functions.config().firebase);
 
 const PropertyType = require('./PropertyType');
+const AgentType = require('./AgentType');
 
 const objToArr = (obj) => {
   const arr = [];
@@ -29,6 +30,27 @@ const QueryType = new GraphQLObjectType({
             return Object.assign({}, property, { images: objToArr(property.images) });
           });
           resolve(result);
+        });
+      }),
+    },
+    property: {
+      type: PropertyType,
+      resolve: (obj, { id }) => new Promise((resolve, reject) => {
+        admin.database().ref('/properties').once('value', (snapshot) => {
+          const propertiesArr = objToArr(snapshot.val());
+          const result = propertiesArr.map((property) => {
+            return Object.assign({}, property, { images: objToArr(property.images) });
+          }).filter(property => property.id === id)[0];
+          resolve(result);
+        });
+      }),
+    },
+    agents: {
+      type: new GraphQLList(AgentType),
+      resolve: () => new Promise((resolve, reject) => {
+        admin.database().ref('/agents').once('value', (snapshot) => {
+          const agentsArr = objToArr(snapshot.val());
+          resolve(agentsArr);
         });
       }),
     },
