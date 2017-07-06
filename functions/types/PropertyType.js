@@ -1,4 +1,4 @@
-var {
+const {
   GraphQLBoolean,
   GraphQLList,
   GraphQLFloat,
@@ -7,7 +7,7 @@ var {
   GraphQLObjectType,
 } = require('graphql');
 
-let PropertyFacilitiesType = new GraphQLObjectType({
+const PropertyFacilitiesType = new GraphQLObjectType({
   name: 'Facilities',
   fields: () => ({
     bathroom: {
@@ -25,7 +25,7 @@ let PropertyFacilitiesType = new GraphQLObjectType({
   }),
 });
 
-let PropertyImagesType = new GraphQLObjectType({
+const PropertyImagesType = new GraphQLObjectType({
   name: 'image',
   fields: () => ({
     url: {
@@ -34,9 +34,24 @@ let PropertyImagesType = new GraphQLObjectType({
   }),
 });
 
-let PropertyType = new GraphQLObjectType({
+const PropertyType = new GraphQLObjectType({
   name: 'Property',
   fields: () => ({
+    id: {
+      type: GraphQLInt,
+    },
+    name: {
+      type: GraphQLString,
+    },
+    price: {
+      type: GraphQLInt,
+    },
+    category: {
+      type: GraphQLString,
+    },
+    description: {
+      type: GraphQLString,
+    },
     agid: {
       type: GraphQLString,
     },
@@ -51,15 +66,6 @@ let PropertyType = new GraphQLObjectType({
     },
     longitude: {
       type: GraphQLFloat,
-    },
-    name: {
-      type: GraphQLString,
-    },
-    price: {
-      type: GraphQLInt,
-    },
-    uid: {
-      type: GraphQLString,
     },
   }),
 });
