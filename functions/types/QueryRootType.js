@@ -34,6 +34,23 @@ const QueryType = new GraphQLObjectType({
         });
       }),
     },
+    propertiesByCategory: {
+      type: new GraphQLList(PropertyType),
+      args: {
+        category: {
+          type: GraphQLString,
+        },
+      },
+      resolve: (obj, { category }) => new Promise((resolve, reject) => {
+        admin.database().ref('/properties').once('value', (snapshot) => {
+          const propertiesArr = objToArr(snapshot.val());
+          const result = propertiesArr.map((property) => {
+            return Object.assign({}, property, { images: objToArr(property.images) });
+          }).filter(property => property.category === category);
+          resolve(result);
+        });
+      }),
+    },
     property: {
       type: PropertyType,
       args: {
