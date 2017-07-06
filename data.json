@@ -1,0 +1,21 @@
+{
+  "properties": [{
+  	"agid": "AG1",
+  	"facilities": {
+  		"bathroom": 1,
+  		"bedroom": 2,
+  		"carSlot": 1,
+  		"security": true
+  	},
+  	"id": "P1",
+  	"images": [{
+  		"url": "https://d3p0bla3numw14.cloudfront.net/house/ho23/2383609/hos2383609-disewa-di-pamoyanan_bogor.jpg"
+  	}],
+
+  	"latitude": 106.7967039,
+  	"longitude": -6.6244285,
+  	"name": "Jual Rumah Bogor Park Residence",
+  	"price": 800000000,
+  	"uid": "U1"
+  }]
+}
