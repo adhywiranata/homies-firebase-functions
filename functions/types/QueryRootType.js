@@ -1,4 +1,5 @@
 const {
+  GraphQLString,
   GraphQLList,
   GraphQLObjectType,
 } = require('graphql');
@@ -35,6 +36,11 @@ const QueryType = new GraphQLObjectType({
     },
     property: {
       type: PropertyType,
+      args: {
+        id: {
+          type: GraphQLString,
+        },
+      },
       resolve: (obj, { id }) => new Promise((resolve, reject) => {
         admin.database().ref('/properties').once('value', (snapshot) => {
           const propertiesArr = objToArr(snapshot.val());
