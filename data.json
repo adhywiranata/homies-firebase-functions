@@ -39,6 +39,8 @@
     } ],
     "latitude" : 106.7967039,
     "longitude" : -6.6244285,
+		"width": 100,
+		"location": "Bogor, Jawa Barat",
     "name" : "Rumah Baru View Gunung Salak Furnished Di Kota Bogor",
     "price" : 2400000000
   }, {
@@ -65,6 +67,8 @@
     } ],
     "latitude" : 106.7967039,
     "longitude" : -6.6244285,
+		"width": 100,
+		"location": "Bogor, Jawa Barat",
     "name" : "Hunian Bogor Nirwana Residence",
     "price" : 2000000000
   }, {
@@ -91,6 +95,8 @@
     } ],
     "latitude" : 106.7967039,
     "longitude" : -6.6244285,
+		"width": 100,
+		"location": "Bogor, Jawa Barat",
     "name" : "Hunian Indah BNR Bogor (Dekat the Jungle)",
     "price" : 3000000000
   }, {
@@ -117,6 +123,8 @@
     } ],
     "latitude" : 106.7967039,
     "longitude" : -6.6244285,
+		"width": 100,
+		"location": "BSD Serpong, Tangerang",
     "name" : "Cluster THE VILLAS Serpong BSD",
     "price" : 690000000
   }, {
@@ -143,6 +151,8 @@
     } ],
     "latitude" : 106.7967039,
     "longitude" : -6.6244285,
+		"width": 100,
+		"location": "BSD Serpong, Tangerang",
     "name" : "THE VILLAS Serpong BSD Culter House",
     "price" : 700000000
   }, {
@@ -169,6 +179,8 @@
     } ],
     "latitude" : 106.7967039,
     "longitude" : -6.6244285,
+		"width": 100,
+		"location": "Kelapa Gading, Jakarta Utara, DKI Jakarta",
     "name" : "Apartemen Gading Mediterannia Residence",
     "price" : 1176000000
   }, {
@@ -195,6 +207,8 @@
     } ],
     "latitude" : 106.7967039,
     "longitude" : -6.6244285,
+		"width": 100,
+		"location": "Kelapa Gading, Jakarta Utara, DKI Jakarta",
     "name" : "Gading Mediterannia Residence Apartemen Kelapa Gading",
     "price" : 1476000000
   }, {
@@ -219,6 +233,8 @@
     } ],
     "latitude" : 106.7967039,
     "longitude" : -6.6244285,
+		"width": 100,
+		"location": "Kelapa Gading, Jakarta Utara, DKI Jakarta",
     "name" : "Ruko Gading Bukit Indah",
     "price" : 6400000000
   } ]

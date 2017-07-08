@@ -60,6 +60,9 @@ const PropertyType = new GraphQLObjectType({
     price: {
       type: GraphQLString,
     },
+    width: {
+      type: GraphQLInt,
+    },
     category: {
       type: GraphQLString,
     },
@@ -86,6 +89,9 @@ const PropertyType = new GraphQLObjectType({
     },
     longitude: {
       type: GraphQLFloat,
+    },
+    location: {
+      type: GraphQLString,
     },
   }),
 });
