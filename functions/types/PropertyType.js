@@ -18,7 +18,7 @@ const PropertyFacilitiesType = new GraphQLObjectType({
     bedroom: {
       type: GraphQLInt,
     },
-    carslot: {
+    carSlot: {
       type: GraphQLInt,
     },
     security: {
