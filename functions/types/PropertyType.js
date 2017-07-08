@@ -27,6 +27,18 @@ const PropertyFacilitiesType = new GraphQLObjectType({
   }),
 });
 
+const ImpressionsType = new GraphQLObjectType({
+  name: 'Impressions',
+  fields: () => ({
+    views: {
+      type: GraphQLInt,
+    },
+    saves: {
+      type: GraphQLInt,
+    },
+  }),
+});
+
 const PropertyImagesType = new GraphQLObjectType({
   name: 'image',
   fields: () => ({
@@ -62,6 +74,9 @@ const PropertyType = new GraphQLObjectType({
     },
     facilities: {
       type: PropertyFacilitiesType,
+    },
+    impressions: {
+      type: ImpressionsType,
     },
     images: {
       type: new GraphQLList(PropertyImagesType),
