@@ -1,237 +1,225 @@
 {
-  "properties": [
-		{
-			"id": "P1",
-			"name": "Rumah Baru View Gunung Salak Furnished Di Kota Bogor",
-			"category": "Rumah",
-			"description": "Miliki rumah dengan kelas Resort berada di lokasi terbaik dan diapit *Gunung Salak*serta *Sungai Cisadane*yang membuat hidup anda menyatu dengan alam bebas,yang jauh dari polusi serta bebas banjir.",
-			"price": 2400000000,
-			"agid": "AG1",
-			"facilities": {
-				"bathroom": 1,
-				"bedroom": 2,
-				"carSlot": 1,
-				"security": true
-			},
-			"images": [
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-1488677988293.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779691407.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779960351.jpg"
-				}
-			],
-			"latitude": 106.7967039,
-			"longitude": -6.6244285
-  	},
-		{
-			"id": "P2",
-			"name": "Hunian Bogor Nirwana Residence",
-			"category": "Rumah",
-			"description": "Miliki rumah dengan kelas Resort berada di lokasi terbaik dan diapit *Gunung Salak*serta *Sungai Cisadane*yang membuat hidup anda menyatu dengan alam bebas,yang jauh dari polusi serta bebas banjir.",
-			"price": 2000000000,
-			"agid": "AG1",
-			"facilities": {
-				"bathroom": 3,
-				"bedroom": 5,
-				"carSlot": 3,
-				"security": true
-			},
-			"images": [
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779691407.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-1488677988293.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779960351.jpg"
-				}
-			],
-			"latitude": 106.7967039,
-			"longitude": -6.6244285
-  	},
-		{
-			"id": "P3",
-			"name": "Hunian Indah BNR Bogor (Dekat the Jungle)",
-			"category": "Rumah",
-			"description": "Miliki rumah dengan kelas Resort berada di lokasi terbaik dan diapit *Gunung Salak*serta *Sungai Cisadane*yang membuat hidup anda menyatu dengan alam bebas,yang jauh dari polusi serta bebas banjir.",
-			"price": 3000000000,
-			"agid": "AG1",
-			"facilities": {
-				"bathroom": 2,
-				"bedroom": 4,
-				"carSlot": 3,
-				"security": true
-			},
-			"images": [
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779960351.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779691407.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-1488677988293.jpg"
-				}
-			],
-			"latitude": 106.7967039,
-			"longitude": -6.6244285
-  	},
-		{
-			"id": "P4",
-			"name": "Cluster THE VILLAS Serpong BSD",
-			"category": "Rumah",
-			"description": "Pilihan investasi property sangat banyak, tapi mesti pintar pilih property yang istimewa. It's time to Buy, Cluster THE VILLAS Serpong by Unity Group",
-			"price": 690000000,
-			"agid": "AG1",
-			"facilities": {
-				"bathroom": 1,
-				"bedroom": 1,
-				"carSlot": 1,
-				"security": true
-			},
-			"images": [
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954582677661.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954583236764.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954584078182.jpg"
-				}
-			],
-			"latitude": 106.7967039,
-			"longitude": -6.6244285
-  	},
-		{
-			"id": "P5",
-			"name": "THE VILLAS Serpong BSD Culter House",
-			"category": "Rumah",
-			"description": "Pilihan investasi property sangat banyak, tapi mesti pintar pilih property yang istimewa. It's time to Buy, Cluster THE VILLAS Serpong by Unity Group",
-			"price": 700000000,
-			"agid": "AG1",
-			"facilities": {
-				"bathroom": 1,
-				"bedroom": 1,
-				"carSlot": 1,
-				"security": true
-			},
-			"images": [
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954584078182.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954582677661.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954583236764.jpg"
-				}
-			],
-			"latitude": 106.7967039,
-			"longitude": -6.6244285
-  	},
-		{
-			"id": "P6",
-			"name": "Apartemen Gading Mediterannia Residence",
-			"category": "Apartemen",
-			"description": "Dijual Unit 3 kamar di Apartemen Gading Mediterania Residence,Kelapa Gading Jakarta Utara",
-			"price": 1176000000,
-			"agid": "AG2",
-			"facilities": {
-				"bathroom": 1,
-				"bedroom": 2,
-				"carSlot": 1,
-				"security": true
-			},
-			"images": [
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-149926709548.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-14992671076342.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-14992671173736.jpg"
-				}
-			],
-			"latitude": 106.7967039,
-			"longitude": -6.6244285
-  	},
-		{
-			"id": "P7",
-			"name": "Gading Mediterannia Residence Apartemen Kelapa Gading",
-			"category": "Apartemen",
-			"description": "Dijual Unit 3 kamar di Apartemen Gading Mediterania Residence,Kelapa Gading Jakarta Utara",
-			"price": 1476000000,
-			"agid": "AG2",
-			"facilities": {
-				"bathroom": 1,
-				"bedroom": 2,
-				"carSlot": 1,
-				"security": true
-			},
-			"images": [
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-14992671076342.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-149926709548.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-14992671173736.jpg"
-				}
-			],
-			"latitude": 106.7967039,
-			"longitude": -6.6244285
-  	},
-		{
-			"id": "P8",
-			"name": "Ruko Gading Bukit Indah",
-			"category": "Ruko",
-			"description": "Ruko Blok J Area Kelapa Gading",
-			"price": 6400000000,
-			"agid": "AG3",
-			"facilities": {
-				"bathroom": 1,
-				"bedroom": 2,
-				"carSlot": 1,
-				"security": true
-			},
-			"images": [
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/commercial/co20/2038599/shs2038599-ruko-di-jual-di-kelapa-gading-jakarta-utara-1483936396174.jpg"
-				},
-				{
-					"url": "https://d3p0bla3numw14.cloudfront.net/commercial/co20/2038599/shs2038599-ruko-di-jual-di-kelapa-gading-jakarta-utara-14839364049359.jpg"
-				}
-			],
-			"latitude": 106.7967039,
-			"longitude": -6.6244285
-  	}
-	],
-	"agents": [
-		{
-			"id": 1,
-			"name": "Nancy Halim",
-			"agency": "WhiteHouse Agency",
-			"photo": "https://blogs-images.forbes.com/bonniemarcus/files/2017/03/Bonnie-Marcus_avatar_1489153032-400x400.jpg"
+  "agents" : [ {
+    "agency" : "WhiteHouse Agency",
+    "id" : "AG1",
+    "name" : "Nancy Halim",
+    "photo" : "https://blogs-images.forbes.com/bonniemarcus/files/2017/03/Bonnie-Marcus_avatar_1489153032-400x400.jpg"
+  }, {
+    "agency" : "WhiteHouse Agency",
+    "id" : "AG2",
+    "name" : "Boonie Wiz",
+    "photo" : "https://blogs-images.forbes.com/bonniemarcus/files/2017/03/Bonnie-Marcus_avatar_1489153032-400x400.jpg"
+  }, {
+    "agency" : "WhiteHouse Agency",
+    "id" : "AG3",
+    "name" : "Annie Siaw",
+    "photo" : "https://blogs-images.forbes.com/bonniemarcus/files/2017/03/Bonnie-Marcus_avatar_1489153032-400x400.jpg"
+  } ],
+  "properties" : [ {
+    "agid" : "AG1",
+    "category" : "Rumah",
+    "description" : "Miliki rumah dengan kelas Resort berada di lokasi terbaik dan diapit *Gunung Salak*serta *Sungai Cisadane*yang membuat hidup anda menyatu dengan alam bebas,yang jauh dari polusi serta bebas banjir.",
+    "facilities" : {
+      "bathroom" : 1,
+      "bedroom" : 2,
+      "carSlot" : 1,
+      "security" : true
+    },
+		"impressions": {
+			"views": 200,
+			"saves": 10
 		},
-		{
-			"id": 2,
-			"name": "Boonie Wiz",
-			"agency": "WhiteHouse Agency",
-			"photo": "https://blogs-images.forbes.com/bonniemarcus/files/2017/03/Bonnie-Marcus_avatar_1489153032-400x400.jpg"
+    "id" : "P1",
+    "images" : [ {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-1488677988293.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779691407.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779960351.jpg"
+    } ],
+    "latitude" : 106.7967039,
+    "longitude" : -6.6244285,
+    "name" : "Rumah Baru View Gunung Salak Furnished Di Kota Bogor",
+    "price" : 2400000000
+  }, {
+    "agid" : "AG1",
+    "category" : "Rumah",
+    "description" : "Miliki rumah dengan kelas Resort berada di lokasi terbaik dan diapit *Gunung Salak*serta *Sungai Cisadane*yang membuat hidup anda menyatu dengan alam bebas,yang jauh dari polusi serta bebas banjir.",
+    "facilities" : {
+      "bathroom" : 3,
+      "bedroom" : 5,
+      "carSlot" : 3,
+      "security" : true
+    },
+		"impressions": {
+			"views": 200,
+			"saves": 10
 		},
-		{
-			"id": 3,
-			"name": "Annie Siaw",
-			"agency": "WhiteHouse Agency",
-			"photo": "https://blogs-images.forbes.com/bonniemarcus/files/2017/03/Bonnie-Marcus_avatar_1489153032-400x400.jpg"
-		}
-	]
+    "id" : "P2",
+    "images" : [ {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779691407.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-1488677988293.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779960351.jpg"
+    } ],
+    "latitude" : 106.7967039,
+    "longitude" : -6.6244285,
+    "name" : "Hunian Bogor Nirwana Residence",
+    "price" : 2000000000
+  }, {
+    "agid" : "AG1",
+    "category" : "Rumah",
+    "description" : "Miliki rumah dengan kelas Resort berada di lokasi terbaik dan diapit *Gunung Salak*serta *Sungai Cisadane*yang membuat hidup anda menyatu dengan alam bebas,yang jauh dari polusi serta bebas banjir.",
+    "facilities" : {
+      "bathroom" : 2,
+      "bedroom" : 4,
+      "carSlot" : 3,
+      "security" : true
+    },
+		"impressions": {
+			"views": 200,
+			"saves": 10
+		},
+    "id" : "P3",
+    "images" : [ {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779960351.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-14886779691407.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho24/2415579/hos2415579-rumah-di-jual-di-bogor-nirwana-residence-bogor-1488677988293.jpg"
+    } ],
+    "latitude" : 106.7967039,
+    "longitude" : -6.6244285,
+    "name" : "Hunian Indah BNR Bogor (Dekat the Jungle)",
+    "price" : 3000000000
+  }, {
+    "agid" : "AG1",
+    "category" : "Rumah",
+    "description" : "Pilihan investasi property sangat banyak, tapi mesti pintar pilih property yang istimewa. It's time to Buy, Cluster THE VILLAS Serpong by Unity Group",
+    "facilities" : {
+      "bathroom" : 1,
+      "bedroom" : 1,
+      "carSlot" : 1,
+      "security" : true
+    },
+		"impressions": {
+			"views": 200,
+			"saves": 10
+		},
+    "id" : "P4",
+    "images" : [ {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954582677661.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954583236764.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954584078182.jpg"
+    } ],
+    "latitude" : 106.7967039,
+    "longitude" : -6.6244285,
+    "name" : "Cluster THE VILLAS Serpong BSD",
+    "price" : 690000000
+  }, {
+    "agid" : "AG1",
+    "category" : "Rumah",
+    "description" : "Pilihan investasi property sangat banyak, tapi mesti pintar pilih property yang istimewa. It's time to Buy, Cluster THE VILLAS Serpong by Unity Group",
+    "facilities" : {
+      "bathroom" : 1,
+      "bedroom" : 1,
+      "carSlot" : 1,
+      "security" : true
+    },
+		"impressions": {
+			"views": 200,
+			"saves": 10
+		},
+    "id" : "P5",
+    "images" : [ {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954584078182.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954582677661.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/house/ho19/1987163/hos1987163-rumah-di-jual-di-bsd-tangerang-14954583236764.jpg"
+    } ],
+    "latitude" : 106.7967039,
+    "longitude" : -6.6244285,
+    "name" : "THE VILLAS Serpong BSD Culter House",
+    "price" : 700000000
+  }, {
+    "agid" : "AG2",
+    "category" : "Apartemen",
+    "description" : "Dijual Unit 3 kamar di Apartemen Gading Mediterania Residence,Kelapa Gading Jakarta Utara",
+    "facilities" : {
+      "bathroom" : 1,
+      "bedroom" : 2,
+      "carSlot" : 1,
+      "security" : true
+    },
+		"impressions": {
+			"views": 200,
+			"saves": 10
+		},
+    "id" : "P6",
+    "images" : [ {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-149926709548.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-14992671076342.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-14992671173736.jpg"
+    } ],
+    "latitude" : 106.7967039,
+    "longitude" : -6.6244285,
+    "name" : "Apartemen Gading Mediterannia Residence",
+    "price" : 1176000000
+  }, {
+    "agid" : "AG2",
+    "category" : "Apartemen",
+    "description" : "Dijual Unit 3 kamar di Apartemen Gading Mediterania Residence,Kelapa Gading Jakarta Utara",
+    "facilities" : {
+      "bathroom" : 1,
+      "bedroom" : 2,
+      "carSlot" : 1,
+      "security" : true
+    },
+		"impressions": {
+			"views": 200,
+			"saves": 10
+		},
+    "id" : "P7",
+    "images" : [ {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-14992671076342.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-149926709548.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/apartment/ap16/1617264/aps1617264-apartemen-di-jual-di-kelapa-gading-jakarta-utara-14992671173736.jpg"
+    } ],
+    "latitude" : 106.7967039,
+    "longitude" : -6.6244285,
+    "name" : "Gading Mediterannia Residence Apartemen Kelapa Gading",
+    "price" : 1476000000
+  }, {
+    "agid" : "AG3",
+    "category" : "Ruko",
+    "description" : "Ruko Blok J Area Kelapa Gading",
+    "facilities" : {
+      "bathroom" : 1,
+      "bedroom" : 2,
+      "carSlot" : 1,
+      "security" : true
+    },
+		"impressions": {
+			"views": 200,
+			"saves": 10
+		},
+    "id" : "P8",
+    "images" : [ {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/commercial/co20/2038599/shs2038599-ruko-di-jual-di-kelapa-gading-jakarta-utara-1483936396174.jpg"
+    }, {
+      "url" : "https://d3p0bla3numw14.cloudfront.net/commercial/co20/2038599/shs2038599-ruko-di-jual-di-kelapa-gading-jakarta-utara-14839364049359.jpg"
+    } ],
+    "latitude" : 106.7967039,
+    "longitude" : -6.6244285,
+    "name" : "Ruko Gading Bukit Indah",
+    "price" : 6400000000
+  } ]
 }
